@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zindua</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+      <!-- navbar section -->
+      <nav class="fixed top-0 w-full bg-white text-black flex justify-between items-center px-8 py-4" >
+        <div class="text-2xl font-bold uppercase text-red-500 md:justify-center">Zindua
+            <p class="text-center font-semibold text-black text-sm md:justify-center">School</p>
+        </div>
+        <ul class="hidden md:flex space-x-6 ">
+            <li><a href="#" class="text-hover:red-500">Programs</a></li>
+            <li><a href="#" class="hover:red ">Financing Plans</a></li>
+            <li><a href="#" class="hover:red ">Resources</a></li>
+            <li><a href="#" class="hover:red ">More</a></li>
+            <button class="bg-red-400 text-white rounded-lg px-5 py-3 ">Apply Today</button>
+        </ul>
+        <div class="md:hidden text-2xl cursor-pointer">&#9776;</div>
+      </nav>
+      <!-- header -->
+    <header class="h-screen rounded-lg w-1000 text-center">
+        <div class="flex flex-col items-center justify-center h-full bg-orange-50 py-16 px-4">
+                <h1 class="text-5xl font-bold mb-4 text-red-500">Zindua your career in tech:
+                <span class="text-black">Kenya’s Hidden Gem for Quality Tech Education</span>
+                </h1>
+                <p class="items-center">Small classes, personalised mentorship, and an extreme focus on practical learning; join Zindua’s full-time or part-time bootcamp and start your journey in a Software or Data pathway today.</p>
+                <button type="submit" class="bg-red-500 text-orange-50 mt-5 px-40 py-2 rounded-lg hover:bg-cyan-600 transition">Apply Now</button>
+                <button type="button" class="bg-orange-50 text-red-500 border border-red-500 mt-5 px-40 py-2 rounded-lg hover:bg-cyan-600 transition">Explore Programs</button>
+            </div>
+    </header>
+
+    <!--Explore Core Programs-->
+    <section>
+        <div>
+            <h4 class="font-bold text-3xl mb-1 mt-5 justify-center items-center py-4 px-5 text-center">Explore Core Programs</h4>
+            <p class="px-4 py-2 text-center mt-1">We offer coding programs tailored to the most in-demand skills and pathways in the tech job market today.</p>
+        </div>
+        <div class="grid grid-cols-1 w-full md:grid-cols-2 gap-6 justify-center mt-5 gap-6 px-20 relative flex mb-10">
+            <!-- Software Eng -->
+            <div class="border border-gray-600 flex w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group text-center"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600">
+                    <!-- Image -->
+                    <figure class="size-large">
+                        <div class="w-60">
+                            <img src="assets/Undraw-Software-Engineer-Illustration.png" alt="Software Engineer Illustration">
+                        </div>
+                    </figure>
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">Software Engineering</h3>
+                        <p class="mt-3">Graduate in <b>7 months (part-time)</b> or <b>4 months (full-time)</b>. Become a <u>certified full-stack software developer</u>. Beginner-friendly, no prior coding needed.</p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm border border-red-500 hover:text-white hover:bg-cyan-500 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <!--Data Science-->
+            <div class="border border-gray-600 relative w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600">
+                    <!-- Image -->
+                    <figure class="size-large">
+                        <div class="w-60">
+                            <img src="assets/Undraw-Data-Science-Illustration.png" alt="Data Science Illustration">
+                        </div>
+                    </figure>
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">Data Science</h3>
+                        <p class="mt-3">Graduate in <b>7 months (part-time)</b> or <b>4 months (full-time)</b>. Become a <u>certified data scientist</u>. Requires a solid Statistics background, no prior coding needed.</p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm border border-red-500 hover:text-white hover:bg-cyan-500 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <!--Data Analytics-->
+            <div class="border border-gray-600 relative w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600">
+                    <!-- Image -->
+                    <figure class="size-large">
+                        <div class="w-60">
+                            <img src="assets/Undraw-DevOps-Engineer-Illustration Data Analytics.png" alt="Data Analytics Illustration">
+                        </div>
+                    </figure>
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">Data Analytics</h3>
+                        <p class="mt-3">Graduate in <b>4 months (part-time)</b> or <b>2.5 months (full-time)</b>. Become a <u>certified data analyst</u>. Requires some Statistics background, no prior coding needed.</p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm border border-red-500 hover:text-white hover:bg-cyan-500 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <!--Frontend Development-->
+            <div class="border border-gray-600 relative w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600">
+                    <!-- Image -->
+                    <figure class="size-large">
+                        <div class="w-60">
+                            <img src="assets/Undraw-Data-Engineer-Illustration front end.png" alt="Frontend Development">
+                        </div>
+                    </figure>
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">Frontend Development</h3>
+                        <p class="mt-3">Graduate in <b>4 months (part-time)</b> or <b>2.5 months (full-time)</b>. Become a <u>certified frontend wed developer</u>. Beginner-friendly, no prior coding needed.</p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <!--Data Engineering-->
+            <div class="border border-gray-600 relative w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600">
+                    <!-- Image -->
+                    <figure class="size-large">
+                        <div class="w-60">
+                            <img src="assets/Undraw-Data-Engineer-Illustration.png" alt="Data Engineering Illustration">
+                        </div>
+                    </figure>
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">Data Engineering</h3>
+                        <p class="mt-3">Specialisation for <u>Data Analysts and Data Scientists</u> looking to niche into Big Data. Graduate in <b>3 months part-time.</b><div class="text-red-500">Google Cloud Data Engineer certification</div></p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+             <!--DevOps Engineering-->
+             <div class="border border-gray-600 relative w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600">
+                    <!-- Image -->
+                    <figure class="size-large">
+                        <div class="w-60">
+                            <img src="assets/Undraw-Data-Engineer-Illustration (1) Devops.png" alt="DevOps Engineering Illustration">
+                        </div>
+                    </figure>
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">DevOps Engineering</h3>
+                        <p class="mt-3">Specialisation for <u>Analysts and Data Scientists</u> looking to niche into Big Data. Graduate in <b>3 months part-time.</b> <div class="text-red-500">Google Cloud Data Engineer certification</div></p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
