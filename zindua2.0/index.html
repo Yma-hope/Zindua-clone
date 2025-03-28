@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zindua</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
       <!-- navbar section -->
-      <nav class="fixed top-0 w-full bg-white text-black flex justify-between items-center px-8 py-4" >
+      <nav class="fixed top-0 w-full bg-white text-black flex justify-between items-center px-8 py-4 z-10">
         <div class="text-2xl font-bold uppercase text-red-500 md:justify-center">Zindua
             <p class="text-center font-semibold text-black text-sm md:justify-center">School</p>
         </div>
@@ -33,13 +34,38 @@
             </div>
     </header>
 
+    <!--Graduates working areas-->
+    <div class="bg-black px-5 py-10 mt-7 w-70 rounded-lg m-10">
+        <p class="text-white font-bold text-center text-xl">Graduates work at top companies</p>
+        <div class="flex justify-center mt-5 gap-6 cursor-pointer text-center">
+            <div class="w-20 h-10 flex flex-col">
+                <img src="assets/ncba-logo-.png">
+            </div>
+            <div class="w-20 h-10 flex flex-col">
+                <img src="assets/Dalberg-Logo-.png">
+            </div>
+            <div class="w-20 h-10 flex flex-col">
+                <img src="assets/Huawei-Logo-.png">
+            </div>
+            <div class="w-20 h-10 flex flex-col">
+                <img src="assets/Andela-Logo-Where-Zindua-Graduates-Work-1536x448.png">
+            </div>
+            <div class="w-20 h-7 flex">
+                <img src="assets/EY-Logo-Where-Zindua-Graduates-Work-1-e1700084679202.png">
+            </div>
+            <div class="w-20 h-10 flex flex-col">
+                <img src="assets/bat-logo-1536x524.png">
+            </div>
+        </div>
+    </div>
+
     <!--Explore Core Programs-->
     <section>
         <div>
             <h4 class="font-bold text-3xl mb-1 mt-5 justify-center items-center py-4 px-5 text-center">Explore Core Programs</h4>
             <p class="px-4 py-2 text-center mt-1">We offer coding programs tailored to the most in-demand skills and pathways in the tech job market today.</p>
         </div>
-        <div class="grid grid-cols-1 w-full md:grid-cols-2 gap-6 justify-center mt-5 gap-6 px-20 relative flex mb-10">
+        <div class="grid grid-cols-1 w-full md:grid-cols-2 justify-center mt-5 gap-6 px-20 relative flex mb-10">
             <!-- Software Eng -->
             <div class="border border-gray-600 flex w-full md:w-3/4 h-150 rounded-lg overflow-hidden shadow-lg group text-center"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
                 <div class="bg-white flex flex-col text-gray-600">
@@ -138,11 +164,265 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+    <!--Graduate Testimonials-->
+    <section>
+        <div class="mt-5 flex flex-col">
+            <h5 class="uppercase text-cyan-500 font-bold text-center">Graduate testimonials</h5>
+            <h4 class="text-center tracking-wide font-bold text-2xl">Our graduates work for top companies in Kenya and <br> beyond, here’s what they say</h4>
+           </div>
+            
+           <div class="grid grid-cols-2 gap-4 max-w-6xl mx-auto mt-2">
+            <div class="border border-black rounded-lg px-19 py-10 ">
+              <h4 class="text-red-500 text-center text-3xl font-bold">My experience has been nothing short of amazing</h4>
+              <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nostrum, modi similique fuga ipsam repudiandae sunt voluptas repellat recusandae ratione architecto voluptates rerum dolorum assumenda ducimus tempora incidunt quasi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque eaque maxime voluptates iusto dicta facilis quia, officiis enim nam ducimus magni id? Expedita qui perferendis suscipit assumenda quibusdam voluptas.</p>
+              <p class="mt-5 text-cyan-500 font-semibold text-center">Januarius Kosgei</p>
+              <p class="text-gray-500 text-center">Data Science Graduate 2023</p>
+            </div>
+      
+            <div class="border border-black rounded-lg px-19 py-10 ">
+              <h4 class="text-red-500 text-center text-3xl font-bold">Hard but exhiliarating! got the job I strove for 6 months in.</h4>
+              <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nostrum, modi similique fuga ipsam repudiandae sunt voluptas repellat recusandae ratione architecto voluptates rerum dolorum assumenda ducimus tempora incidunt quasi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque eaque maxime voluptates iusto dicta facilis quia, officiis enim nam ducimus magni id? Expedita qui perferendis suscipit assumenda quibusdam voluptas.</p>
+              <p class="mt-5 text-cyan-500 font-semibold text-center">Januarius Kosgei</p>
+              <p class="text-gray-500 text-center">Data Science Graduate 2023</p>
+            </div>
+            
+           </div>
+           <!-- Google reviews -->
+          <div class="mt-5">
+            <h6 class="text-center tracking-wide"><span class="text-cyan-500 font-bold" >4.9/5.0 star rating</span> on Google Reviews-<a href="https://www.google.com/search?q=zindua+school+google+reviews&oq=zindua+school+google+reviews&aqs=chrome..69i57.5528j0j1&sourceid=chrome&ie=UTF-8" class="text-red-500 hover:text-cyan-500">Click to see more student reviews</a></h6> 
+          </div>
+      
+          <!-- Enroll now -->
+          <div class="mt-2 flex flex-col bg-black rounded-xl gap-3 py-10 items-center text-white mx-5">
+            <h1 class="font-bold text-4xl px-40"><span class="text-red-500 font-bold text-4xl">Ready to Experience the Zindua Difference?</span> Enroll now, learn to code, and upskill into a career in tech!</h1>
+            <button class="bg-white text-black rounded-lg px-40 py-2  mt-3  hover:bg-red-500 hover:text-white">Apply Now</button>
+      
+          </div>
+          <!-- Programs  -->
+           <h1 class="font-bold text-center text-4xl mt-10">Programs by level</h1>
+            <p class="text-gray-500 text-center">We have filtered our recommended programs based on your <br> personal career and/or academic level</p>
+          
+            <div class="grid grid-cols-1 md:grid-cols-3 mx-auto max-w-6xl gap-4 mt-5">
+              <div class="border border-gray-400 py-5 rounded-xl">
+                <h3 class="text-red-500 font-bold text-center text-2xl">For High School Grads</h3>
+                <p class="mt-4 text-gray-500 text-lg text-center">Just completed high school? Learn to code and upskill into tech and Software Dev even before you join university</p>
+                <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+              </div>
+      
+              <div class="border border-gray-400 py-5 rounded-xl">
+                <h3 class="text-red-500 font-bold text-center text-2xl">For University Students</h3>
+                <p class="mt-4 text-gray-500 text-lg text-center">Complement your degree with employable tech skills. Join part-time while in school or full-time during long holidays</p>
+                <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+              </div>
+      
+              <div class="border border-gray-400 py-5 rounded-xl">
+                <h3 class="text-red-500 font-bold text-center text-2xl">For University Graduates</h3>
+                <p class="mt-4 text-gray-500 text-lg text-center">Level up your degree by upskilling into an in-demand Data or Software career. Unlock limitless career possibilities</p>
+                <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+              </div>
+      
+              <div class="border border-gray-400 py-5 rounded-xl">
+                <h3 class="text-red-500 font-bold text-center text-2xl">For Working Professionals</h3>
+                <p class="mt-4 text-gray-500 text-lg text-center">Overcome your your career plateau by upskilling into tech. Acquire the technical skills shaping the job market</p>
+                <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+              </div>
+      
+              <div class="border border-gray-400 py-5 rounded-xl">
+                <h3 class="text-red-500 font-bold text-center text-2xl">For Advanced Developers</h3>
+                <p class="mt-4 text-gray-500 text-lg text-center">Already a Developer, Data Scientist, or Data Analyst? Specialise into a niche emerging tech pathway</p>
+                <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+              </div>
+      
+              <div class="border border-gray-400 bg-black py-5 rounded-xl">
+                <h3 class="text-red-500 font-bold text-center text-2xl">For University Graduates</h3>
+                <p class="mt-4 text-white text-lg text-center">Level up your degree by upskilling into an in-demand Data or Software career. Unlock limitless career possibilities</p>
+                <button class="bg-white mt-5 hover:bg-cyan-500 hover:text-white text-black items-center px-20 py-1 rounded-lg text-xl mx-10">Contact Us </button>
+              </div>
+      
+      
+            </div>
+      
+            <!-- Why Zindua -->
+      <div class="mt-10 text-center">
+        <h6 class="uppercase font-bold text-cyan-500">why choose zindua school</h6>
+        <h5 class="font-bold text-3xl">Why settle for ordinary when you can join the <br class="hidden md:block"> extraordinary?</h5>
+      </div>
+      
+      <!-- Section 1 -->
+      <div class="flex flex-col md:flex-row items-center mt-10 gap-8 px-6">
+        <img src="assets/bootcamp-vs.-university-1.jpg" alt="" 
+            class="w-full md:w-1/2 h-80 object-cover rounded-2xl">
+        <div class="md:w-1/2">
+            <h2 class="mt-4 md:mt-0 font-bold text-2xl tracking-wide">
+                <span class="text-red-500">Personalised learning:</span> We believe in quality over quantity
+            </h2>
+            <p class="mt-2">We keep our classes cozy, with just 
+                <span class="font-bold">7-10 students per class for part-time and 12-15 students per class for full-time.</span> 
+                Say goodbye to getting lost in the crowd—our personalised approach ensures you get the attention and support you need to thrive.
+            </p>
+        </div>
+      </div>
+      
+      <!-- Section 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center mt-10 gap-8 px-6">
+        <img src="assets/Image 2.jpg" alt="" class="w-full md:w-1/2 h-80 object-cover rounded-2xl">
+        <div class="md:w-1/2">
+            <h2 class="mt-4 md:mt-0 font-bold text-2xl tracking-wide">
+                <span class="text-red-500">Learn-Now-Pay-Later:</span> Lipa mdogo mdogo & income-shares
+            </h2>
+            <p class="mt-2">
+                We get it—investing in your future can be daunting. That’s why we offer flexible financing options. With our lipa mdogo mdogo plan, you can 
+                <span class="font-bold">pay fees gradually over a longer time period.</span> With our income-share, you 
+                <span class="font-bold">pay 50% of fees and the rest once you are earning.</span>
+            </p>
+        </div>
+      </div>
+      
+      <!-- Section 3 -->
+      <div class="flex flex-col md:flex-row items-center mt-10 gap-8 px-6">
+        <img src="assets/image 3.jpg" alt="" 
+            class="w-full md:w-1/2 h-80 object-cover rounded-2x1">
+        <div class="md:w-1/2">
+            <h2 class="mt-4 md:mt-0 font-bold text-2xl tracking-wide">
+                <span class="text-red-500">Job Placement Support:</span> Your success is our success
+            </h2>
+            <p class="mt-2">
+                Your journey doesn’t stop at graduation. Our student success team is dedicated to helping you land your dream gig. From polishing your resume, prepping for interviews, to even connecting you to our employer networks, we’ve got your back every step of the way.
+            </p>
+        </div>
+      </div>
+      
+      <!-- CTA Section -->
+      <div class="mt-10 px-6 py-10 bg-black rounded-xl text-center">
+        <h2 class="text-white text-3xl font-bold tracking-wider">
+            <span class="text-red-500">Ready to Experience the Zindua Difference?</span> 
+            Enroll now, <br class="hidden md:block"> learn to code, and upskill into a career in tech!
+        </h2>
+        <div class="flex justify-center mt-6">
+            <button class="bg-white hover:bg-red-500 hover:text-white text-black px-10 py-3 rounded-lg text-xl">
+                Apply Now
+            </button>
+        </div>
+      </div>
+    </section>
+    <section>
+    <!-- Programs  -->
+    <h1 class="uppercase text-cyan-600 text-center text-md font-bold mt-10">zindua short courses</h1>
+    <p class="text-black font-bold text-center text-4xl">Not yet ready for a full career transformation? Try our shorter programs</p>
+  
+    <div class="grid grid-cols-1 md:grid-cols-3 mx-auto max-w-6xl gap-4 m-10">
+      <div class="border border-gray-400 py-5 rounded-xl m-6">
+        <h3 class="text-red-500 font-bold text-2xl">Short Courses</h3>
+        <p class="mt-4 text-gray-700 text-lg text-center">Learn a <b>niche tech skill in 10 weeks</b> or<b> join a 30-day challenge</b>. Here are the courses/challenges available:
+        <ul class="px-8">
+            <li>Product Management</li>
+            <li>Data Structures & Algorithms</li>
+            <li>30-Day Data Storytelling Challenge</li>
+            <li>30-Day Web Design Challange</li>
+        </ul>
+        </p>
+        <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">Discover Courses </button>
+      </div>
 
+      <div class="border border-gray-400 py-5 rounded-xl m-6">
+        <h3 class="text-red-500 font-bold text-2xl">Tech Masterclasses</h3>
+        <p class="mt-4 text-gray-700 text-lg text-center">These are<b> one-day or two-day in-person classes</b> covering specific tech skills. Here are the most popular ones:
+            <ul class="px-8">
+                <li>Power BI Data Visualisation</li>
+                <li>Figma User Interface Design</li>
+                <li>No-Code Website Developoment</li>
+                <li>AWS/Azure/GCP Cloud Computing</li>
+            </ul>
+        </p>
+        <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">Find Your Masterclass </button>
+      </div>
 
+      <div class="border border-gray-400 py-5 rounded-xl m-6">
+        <h3 class="text-red-500 font-bold text-2xl">Free Intro Classes</h3>
+        <p class="mt-4 text-gray-700 text-lg text-center">Free <b>introductory online courses</b> for popular career pathways in tech. Here are the courses available:
+            <ul class="px-8">
+                <li>HTMLK-CSS Web Dev Foundations</li>
+                <li>SQL Data Science Foundations</li>
+                <li>Git, Linux, CLI Foundations</li>
+                <li>Computer Literacy Foundations</li>
+            </ul>
+        </p>
+        <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">Explore Free Courses </button>
+      </div>
+    </div>
+    </section>
 
+    <!--Footer-->
+    <footer class="bg-black text-white py-8">
+        <div class="max-w-6xl mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <!-- About Section -->
+             <div>
+                <h3 class="text-lg font-semibold mb-2">About</h3>
+                <p class="text-gray-400">We are dedicated to providing top-notch web services.</p>
+             </div>
+             <!-- Contact Section -->
+             <div>
+                <h3 class="text-lg font-semibold mb-2 text-red-600">TALK TO US</h3>
+                <p class="text-gray-400">Email: email@example.com</p>
+                <p class="text-gray-400">Phone: +123 4561 7890</p>
+               </div>
+               <div>
+                 <div class="flex space-x-4">
+                         <a href="#" class="hover:text-blue-200 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 cursor-pointer"><i class="fa-brands fa-facebook-f"></i></a>
+                         <a href="#" class="hover:text-blue-200 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="#" class="hover:text-blue-200 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-x-twitter"></i></a>
+                         <a href="#" class="hover:text-blue-200 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-linkedin"></i></a>
+                 </div>
+               </div>
+             <!-- Quick Access -->
+              <div>
+                <h3 class="text-lg font-semibold mb-2">Quick Access</h3>
+                <ul class="space-y-2">
+                    <li><a href="#apply today" class="text-white hover:text-red-600 transition">Apply Today</a></li>
+                    <li><a href="#financing options" class="text-white hover:text-red-600 transition">Financing Options</a></li>
+                    <li><a href="#frequently asked" class="text-white hover:text-red-600 transition">Frequently Asked(FAQs)</a></li>
+                    <li><a href="#for highschool graduates" class="text-white hover:text-red-600 transition">For High School Graduates</a></li>
+                    <li><a href="#for university graduates" class="text-white hover:text-red-600 transition">For University Graduates</a></li>
+                    <li><a href="#for university students" class="text-white hover:text-red-600 transition">For University Students</a></li>
+                    <li><a href="#for working professionals" class="text-white hover:text-red-600 transition">For Working Professionals</a></li>
+                    <li><a href="#for advanced developers" class="text-white hover:text-red-600 transition">For Advanced Developers</a></li>
 
+                </ul>
+              </div>
+               <!-- Main Programs -->
+               <div>
+                <h3 class="text-lg font-semibold mb-2">Main Programs</h3>
+                <ul class="space-y-2">
+                    <li><a href="#software engineering core" class="text-gray-400 hover:text-blue-200 transition">Software Engineering Core</a></li>
+                    <li><a href="#data science core" class="text-gray-400 hover:text-blue-200 transition">About</a></li>
+                    <li><a href="#data analytics" class="text-gray-400 hover:text-blue-200 transition">Services</a></li>
+                    <li><a href="#frontend develoment" class="text-gray-400 hover:text-blue-200 transition">Contact</a></li>
+                    <li><a href="#data engineering specialization" class="text-gray-400 hover:text-blue-200 transition">Contact</a></li>
+                    <li><a href="#devops engineering specialisation" class="text-gray-400 hover:text-blue-200 transition">Contact</a></li>
+                </ul>
+              </div>
+              <!-- Quick Links -->
+              <div>
+                <h3 class="text-lg font-semibold mb-2">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#hero" class="text-gray-400 hover:text-blue-200 transition">Home</a></li>
+                    <li><a href="#about" class="text-gray-400 hover:text-blue-200 transition">About</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-blue-200 transition">Services</a></li>
+                    <li><a href="#contact" class="text-gray-400 hover:text-blue-200 transition">Contact</a></li>
+                </ul>
+              </div>
+              <!-- Quick Links -->
+              <div>
+                <h3 class="text-lg font-semibold mb-2">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#hero" class="text-gray-400 hover:text-blue-200 transition">Home</a></li>
+                    <li><a href="#about" class="text-gray-400 hover:text-blue-200 transition">About</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-blue-200 transition">Services</a></li>
+                    <li><a href="#contact" class="text-gray-400 hover:text-blue-200 transition">Contact</a></li>
+                </ul>
+              </div>
 
-
+        </div>
+      </footer>
+    </body>
+    </html>
